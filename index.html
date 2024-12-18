@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+</head>
+<style>
+    table,th,td,caption{
+        border:solid 1.25pt black;
+        border-collapse: collapse;
+    }
+
+    thead{
+        border-top: double 5pt green;
+        border-bottom: ridge 3pt green;
+    }
+    td,th,caption{
+        padding: 15px;
+        text-align: center;
+    }
+    thead,th{
+        background-color:palegoldenrod;
+        color: darkblue;
+    }
+    caption,tfoot{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color:silver;
+        font-weight: bold;
+    }
+    .tech{
+        background-color: yellow;
+    }
+    .lab{
+        background-color: pink;
+    }
+    .break{
+        background-color: sandybrown;
+    }
+    .tyl{
+        background-color:lightblue;
+    }
+    td{
+        background-color: ;
+    }
+    tr{
+        background-color: blanchedalmond;
+    }
+    .cse{
+        background-color: darkkhaki;
+    }
+</style>
+<body>
+    <h1>5B Class Timetable</h1>
+    <table>
+        <caption>Section 5B - TT</caption>
+        <thead>
+            <tr class="heading"><!--First Row-->
+                <th>Day/Time</th>
+                <th>8:00-9:00</th>
+                <th>9:00-10:00</th>
+                <th>Tea Break</th>
+                <th>10:20-11:20</th>
+                <th>11:20-12:20</th>
+                <th>Lunch Break</th>
+                <th>13:00-14:00</th>
+                <th>14:00-15:00</th>
+                <th>15:00-16:00</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>MON</th>
+                <td colspan="2" class="tech">Technical Training</td>
+                <td rowspan="6" class="break">10:00-10:20</td><!--tb-->
+                <td colspan="2" class="lab">Web Lab</td>
+                <td rowspan="6" class="break">12:00-12:20</td>
+                <td>TOC</td>
+                <td>AI</td>
+                <td>EVS</td>
+            </tr>
+
+            <tr>
+                <th>TUE</th>
+                <td>CN</td>
+                <td>SE</td>
+                <td>TOC</td>
+                <td class="tyl">TYL aptitude</td>
+                <td>RM</td>
+                <td colspan="2" class="lab">CN Lab</td>
+            </tr>
+
+            <tr>
+                <th>WED</th>
+                <td class="tyl">TYL MAD</td>
+                <td>AI</td>
+                <td>CN</td>
+                <td>SE</td>
+                <td class="tyl">TYL MAD</td>
+                <td colspan="2">P-TR </td>
+            </tr>
+
+            <tr>
+                <th>THU</th>
+                <td>TOC</td>
+                <td>RM</td>
+                <td>AI</td>
+                <td class="tyl">TYL-SS</td>
+                <td>P-TR</td>
+                <td colspan="2">YOGA/MP</td>
+            </tr>
+
+            <tr>
+                <th>FRI</th>
+                <td>AI</td>
+                <td>TOC</td>
+                <td class="tyl">TYL-MAD</td>
+                <td>CN</td>
+                <td class="tyl">TYL-APT</td>
+                <td>SE</td>
+                <td>P-TR</td>
+            </tr>
+
+            <tr>
+                <th>SAT</th>
+                <td>SE</td>
+                <td class="tyl">TYL-MAD</td>
+                <td colspan="2">EVENTS</td>
+                <td>CN</td>
+                <td colspan="2">MENTOing</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr></tr>
+                <td colspan="10" class="cse">Department of CSE</td>
+            </tr>
+
+        </tfoot>
+
+
+
+    </table>
+
+
+
+
+
+
+
+</body>
+</html>
